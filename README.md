@@ -1,64 +1,37 @@
-# [Vue Paper Dashboard](https://cristijora.github.io/vue-paper-dashboard/)
+# Vue Paper Dashboard - Sistema de Abastecimento ⛽
 
-> Admin dashboard based on paper dashboard UI template + vue-router
+Este projeto é um painel administrativo moderno desenvolvido com **Vue.js**, baseado no template *Paper Dashboard*. Ele funciona como a interface de usuário (Front-End) para o gerenciamento de dados de abastecimento, consumindo uma **API REST** estruturada sob os princípios de **Domain-Driven Design (DDD)**.
 
-This project is a vue version of [Paper-dashboard](https://www.creative-tim.com/product/paper-dashboard)
-designed for vue js.The dashboard includes vue-router
+## 🚀 Tecnologias
 
-Check the [Live Demo here](https://cristijora.github.io/vue-paper-dashboard).
+As principais dependências do projeto incluem:
 
-[Nuxt Version (outdated Bootstrap 3)](https://github.com/cristijora/vue-paper-dashboard-nuxt)
-![](http://i.imgur.com/3iC1hOs.gif)
+* **Core:** [Vue.js](https://vuejs.org/) v2.7.14
+* **UI Framework:** [Bootstrap](https://getbootstrap.com/) v4.6.2
+* **Gráficos:** Chartist v0.11.0 (para métricas de consumo e custos)
+* **Estilização:** SASS/SCSS
+* **Linter:** ESLint com Prettier
 
-## Deploy
+---
 
-:rocket: You can deploy your own version of the template to Genezio with one click:
+## 🏗️ Integração com API DDD
 
-[![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/creativetimofficial/vue-paper-dashboard&utm_source=github&utm_medium=referral&utm_campaign=github-creativetim&utm_term=deploy-project&utm_content=button-head)
+A aplicação foi desenhada para interagir com um backend robusto. A comunicação com a API de abastecimento foca na clareza do domínio:
 
-## Documentation
+* **Entidade de Domínio:** Abastecimento (Fueling)
+* **Comunicação:** Axios/Fetch para os endpoints REST.
+* **Arquitetura:** Separação entre componentes de interface e serviços de consumo de dados para manter a consistência com o desacoplamento proposto pelo DDD no backend.
 
-Link to [Documentation](http://vuejs.creative-tim.com/vue-paper-dashboard/documentation/)
+---
 
-## Build Setup
+## 🔧 Instalação e Execução
 
-### install dependencies
+Para rodar este projeto localmente, você precisará do [Node.js](https://nodejs.org/) (versão >= 8.1.4) instalado.
 
-```
-npm install
-```
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+   cd seu-repositorio
 
-### serve with hot reload at localhost:8080
-
-```
-npm run dev
-```
-
-### build for production with minification
-
-```
-npm run build
-```
-
-### lint
-
-```
-npm run lint
-```
-
-## Contribution guide
-
-- Fork the repository
-- `npm install` or `yarn install`
-- Make changes
-- Open Pull Request
-
-For detailed explanation on how things work, checkout the [guide](https://github.com/vuejs/vue-cli/blob/dev/docs/README.md)
-
-- [CHANGELOG](./CHANGELOG.md)
-- [version-badge](https://img.shields.io/badge/version-1.0.1-blue.svg)
-- [license-badge](https://img.shields.io/badge/license-MIT-blue.svg)
-
-## License
-
-[MIT](https://github.com/creativetimofficial/vue-paper-dashboard/blob/master/LICENSE.md)
+👤 Autor
+Desenvolvido por Marcelo Teodoro.
