@@ -18,7 +18,7 @@
         <li class="nav-item">
           <a class="nav-link">
             <i class="ti-panel"></i>
-            <p>Stats</p>
+            <p>Veículos - Registros</p>
           </a>
         </li>
         <drop-down

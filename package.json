@@ -11,6 +11,7 @@
     "dev": "npm run serve"
   },
   "dependencies": {
+    "axios": "^1.13.2",
     "bootstrap": "4.6.2",
     "chartist": "0.11.0",
     "es6-promise": "4.2.8",
@@ -30,7 +31,7 @@
     "vue-template-compiler": "2.7.14"
   },
   "description": "A sample admin dashboard based on paper dashboard UI template",
-  "author": "cristian.jora <joracristi@gmail.com>",
+  "author": "Marcelo.Teodoro>",
   "engines": {
     "node": ">= 8.1.4",
     "npm": ">= 5.0.0"

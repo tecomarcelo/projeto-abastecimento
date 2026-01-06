@@ -4,7 +4,7 @@ import NotFound from "@/pages/NotFoundPage.vue";
 
 // Admin pages
 import Dashboard from "@/pages/Dashboard.vue";
-import UserProfile from "@/pages/UserProfile.vue";
+import VehicleRegistration from "@/pages/VehicleRegistration.vue";
 import Notifications from "@/pages/Notifications.vue";
 import Icons from "@/pages/Icons.vue";
 import Maps from "@/pages/Maps.vue";
@@ -25,7 +25,7 @@ const routes = [
       {
         path: "stats",
         name: "stats",
-        component: UserProfile,
+        component: VehicleRegistration,
       },
       {
         path: "notifications",
