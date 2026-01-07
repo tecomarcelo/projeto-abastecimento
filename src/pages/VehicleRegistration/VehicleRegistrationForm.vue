@@ -94,7 +94,6 @@ export default {
         console.error('Erro ao buscar tipos de combustível:', error);
         alert('Erro ao carregar tipos de combustível');
       }
-      console.log('Fuel types loaded:', this.fuelTypes);
     },
 
     async saveProfile() {

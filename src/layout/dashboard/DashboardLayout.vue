@@ -3,13 +3,13 @@
     <side-bar>
       <template slot="links">
         <sidebar-link to="/dashboard" name="Dashboard" icon="ti-panel" />
-        <sidebar-link to="/stats" name="Veiculos" icon="ti-user" />
+        <sidebar-link to="/VehicleRegistration" name="Veiculos" icon="ti-car" />
+        <sidebar-link to="/Fueling" name="Abastecimento" icon="ti-dashboard" />
         <sidebar-link
           to="/table-list"
           name="Historico"
           icon="ti-view-list-alt"
         />
-        <sidebar-link to="/typography" name="Typographi" icon="ti-text" />
         <sidebar-link to="/icons" name="Icons" icon="ti-pencil-alt2" />
         <sidebar-link to="/maps" name="Map" icon="ti-map" />
         <sidebar-link to="/notifications" name="Notifications" icon="ti-bell" />

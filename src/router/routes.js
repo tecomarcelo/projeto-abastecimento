@@ -8,7 +8,7 @@ import VehicleRegistration from "@/pages/VehicleRegistration.vue";
 import Notifications from "@/pages/Notifications.vue";
 import Icons from "@/pages/Icons.vue";
 import Maps from "@/pages/Maps.vue";
-import Typography from "@/pages/Typography.vue";
+import Fueling from "@/pages/Fueling.vue";
 import TableList from "@/pages/TableList.vue";
 
 const routes = [
@@ -23,8 +23,8 @@ const routes = [
         component: Dashboard,
       },
       {
-        path: "stats",
-        name: "stats",
+        path: "VehicleRegistration",
+        name: "Veiculos",
         component: VehicleRegistration,
       },
       {
@@ -43,9 +43,9 @@ const routes = [
         component: Maps,
       },
       {
-        path: "typography",
-        name: "typography",
-        component: Typography,
+        path: "Fueling",
+        name: "Abastecimento",
+        component: Fueling,
       },
       {
         path: "table-list",
