@@ -38,7 +38,7 @@
 </template>
 <script>
 import MovingArrow from "./MovingArrow.vue";
-import SidebarLink from "./SidebarLink";
+import SidebarLink from "./SidebarLink.vue";
 export default {
   props: {
     title: {
